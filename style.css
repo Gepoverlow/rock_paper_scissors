@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+.containerAll {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.selection {
+  height: 100px;
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+}
+
+.header {
+  height: 250px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+  margin-top: 20px;
+}
+
+.weaponSelection {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.instructions {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.results {
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+.score {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.scorePlayer {
+  margin-right: 110px;
+}
+.scoreComputer {
+  margin-left: 30px;
+}
+
+.numbers {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 100px;
+}
+
+.playerNumber {
+  margin-right: 170px;
+}
