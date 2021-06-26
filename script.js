@@ -158,7 +158,7 @@ btnScissor.addEventListener("click", function () {
   playRound(playerSelection, computerPlay());
 });
 
-let testing = 2 + 2;
+// let testing = 2 + 2;
 
 // const score = document.querySelector(".score");
 // score.textContent = `hey here is the score ${testing}`;

@@ -43,8 +43,34 @@ body {
   color: white;
   text-align: center;
   height: 50px;
+  font-family: cursive;
+  font-size: 30px;
 }
+
 .score {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.scorePlayer,
+.scoreComputer {
+  text-align: center;
+  font-family: cursive;
+}
+
+.numberPlayer,
+.numberComputer {
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.descPlayer,
+.descComputer {
+  font-size: 30px;
+}
+/* .score {
   color: white;
   text-align: center;
   margin-top: 20px;
@@ -54,7 +80,7 @@ body {
 }
 
 .scorePlayer {
-  margin-right: 110px;
+  margin-right: 80px;
 }
 .scoreComputer {
   margin-left: 30px;
@@ -71,4 +97,4 @@ body {
 
 .playerNumber {
   margin-right: 170px;
-}
+} */
