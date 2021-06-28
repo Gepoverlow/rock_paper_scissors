@@ -70,6 +70,19 @@ body {
 .descComputer {
   font-size: 30px;
 }
+
+.hidden {
+  display: none;
+}
+
+.win {
+  font-size: 100px;
+}
+
+.restart {
+  color: white;
+  text-align: center;
+}
 /* .score {
   color: white;
   text-align: center;
